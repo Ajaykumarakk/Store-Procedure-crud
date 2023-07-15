@@ -62,7 +62,7 @@ namespace ConsoleApp1
 
             foreach(var n in res)
             {
-                Console.WriteLine($"name{n.name},ownername{n.ownername},quantity{n.quantity},price{n.price},location{n.location}");
+                Console.WriteLine($"name {n.name},ownername {n.ownername},quantity {n.quantity},price {n.price},location {n.location}");
             }
 
             return res;
