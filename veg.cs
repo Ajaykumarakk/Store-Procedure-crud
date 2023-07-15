@@ -11,7 +11,7 @@ namespace ConsoleApp1
     public class veginfo
     {
         public string name { get; set; }
-        public string ownername { get; set; }
+        public string ownername  { get; set; }
         public int quantity { get; set; }
         public int price { get; set; }
         public string location { get; set; }
